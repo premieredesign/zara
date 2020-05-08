@@ -2,3 +2,7 @@
 <app-cloths></app-cloths>
 <app-shoes></app-shoes>
 <app-accessories></app-accessories>
+<button (click)="getInStock()">Get Items</button>
+<div *ngFor="let item of stock">
+  {{ item?.product }}
+</div>

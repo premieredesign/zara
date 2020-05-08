@@ -105,12 +105,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _departments_departments_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./departments/departments.component */ "./src/app/departments/departments.component.ts");
-/* harmony import */ var _departments_cloths_cloths_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./departments/cloths/cloths.component */ "./src/app/departments/cloths/cloths.component.ts");
-/* harmony import */ var _departments_shoes_shoes_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./departments/shoes/shoes.component */ "./src/app/departments/shoes/shoes.component.ts");
-/* harmony import */ var _departments_accessories_accessories_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./departments/accessories/accessories.component */ "./src/app/departments/accessories/accessories.component.ts");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _departments_departments_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./departments/departments.component */ "./src/app/departments/departments.component.ts");
+/* harmony import */ var _departments_cloths_cloths_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./departments/cloths/cloths.component */ "./src/app/departments/cloths/cloths.component.ts");
+/* harmony import */ var _departments_shoes_shoes_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./departments/shoes/shoes.component */ "./src/app/departments/shoes/shoes.component.ts");
+/* harmony import */ var _departments_accessories_accessories_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./departments/accessories/accessories.component */ "./src/app/departments/accessories/accessories.component.ts");
+
 
 
 
@@ -122,33 +124,26 @@ __webpack_require__.r(__webpack_exports__);
 
 class AppModule {
 }
-AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]] });
-AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({ factory: function AppModule_Factory(t) { return new (t || AppModule)(); }, providers: [], imports: [[
-            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-            _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"]
-        ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"],
-        _departments_departments_component__WEBPACK_IMPORTED_MODULE_4__["DepartmentsComponent"],
-        _departments_cloths_cloths_component__WEBPACK_IMPORTED_MODULE_5__["ClothsComponent"],
-        _departments_shoes_shoes_component__WEBPACK_IMPORTED_MODULE_6__["ShoesComponent"],
-        _departments_accessories_accessories_component__WEBPACK_IMPORTED_MODULE_7__["AccessoriesComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-        _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"]] }); })();
+AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]] });
+AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({ factory: function AppModule_Factory(t) { return new (t || AppModule)(); }, providers: [], imports: [[_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClientModule"]]] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
+        _departments_departments_component__WEBPACK_IMPORTED_MODULE_5__["DepartmentsComponent"],
+        _departments_cloths_cloths_component__WEBPACK_IMPORTED_MODULE_6__["ClothsComponent"],
+        _departments_shoes_shoes_component__WEBPACK_IMPORTED_MODULE_7__["ShoesComponent"],
+        _departments_accessories_accessories_component__WEBPACK_IMPORTED_MODULE_8__["AccessoriesComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClientModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
         args: [{
                 declarations: [
-                    _app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"],
-                    _departments_departments_component__WEBPACK_IMPORTED_MODULE_4__["DepartmentsComponent"],
-                    _departments_cloths_cloths_component__WEBPACK_IMPORTED_MODULE_5__["ClothsComponent"],
-                    _departments_shoes_shoes_component__WEBPACK_IMPORTED_MODULE_6__["ShoesComponent"],
-                    _departments_accessories_accessories_component__WEBPACK_IMPORTED_MODULE_7__["AccessoriesComponent"]
+                    _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
+                    _departments_departments_component__WEBPACK_IMPORTED_MODULE_5__["DepartmentsComponent"],
+                    _departments_cloths_cloths_component__WEBPACK_IMPORTED_MODULE_6__["ClothsComponent"],
+                    _departments_shoes_shoes_component__WEBPACK_IMPORTED_MODULE_7__["ShoesComponent"],
+                    _departments_accessories_accessories_component__WEBPACK_IMPORTED_MODULE_8__["AccessoriesComponent"],
                 ],
-                imports: [
-                    _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-                    _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"]
-                ],
+                imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClientModule"]],
                 providers: [],
-                bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
+                bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]],
             }]
     }], null, null); })();
 
@@ -240,37 +235,83 @@ ClothsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DepartmentsComponent", function() { return DepartmentsComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _cloths_cloths_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./cloths/cloths.component */ "./src/app/departments/cloths/cloths.component.ts");
-/* harmony import */ var _shoes_shoes_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./shoes/shoes.component */ "./src/app/departments/shoes/shoes.component.ts");
-/* harmony import */ var _accessories_accessories_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./accessories/accessories.component */ "./src/app/departments/accessories/accessories.component.ts");
+/* harmony import */ var _inventory_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./inventory.service */ "./src/app/departments/inventory.service.ts");
+/* harmony import */ var _cloths_cloths_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./cloths/cloths.component */ "./src/app/departments/cloths/cloths.component.ts");
+/* harmony import */ var _shoes_shoes_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./shoes/shoes.component */ "./src/app/departments/shoes/shoes.component.ts");
+/* harmony import */ var _accessories_accessories_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./accessories/accessories.component */ "./src/app/departments/accessories/accessories.component.ts");
+
 
 
 
 
 
 class DepartmentsComponent {
-    constructor() {
+    constructor(inventoryService) {
+        this.inventoryService = inventoryService;
     }
-    ngOnInit() {
+    ngOnInit() { }
+    getInStock() {
+        this.inventoryService.getItems().subscribe((res) => {
+            console.log("Item from server", res);
+        });
     }
 }
-DepartmentsComponent.ɵfac = function DepartmentsComponent_Factory(t) { return new (t || DepartmentsComponent)(); };
-DepartmentsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: DepartmentsComponent, selectors: [["app-departments"]], decls: 5, vars: 0, template: function DepartmentsComponent_Template(rf, ctx) { if (rf & 1) {
+DepartmentsComponent.ɵfac = function DepartmentsComponent_Factory(t) { return new (t || DepartmentsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_inventory_service__WEBPACK_IMPORTED_MODULE_1__["InventoryService"])); };
+DepartmentsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: DepartmentsComponent, selectors: [["app-departments"]], decls: 7, vars: 0, consts: [[3, "click"]], template: function DepartmentsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "departments works!");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-cloths");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "app-shoes");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "app-accessories");
-    } }, directives: [_cloths_cloths_component__WEBPACK_IMPORTED_MODULE_1__["ClothsComponent"], _shoes_shoes_component__WEBPACK_IMPORTED_MODULE_2__["ShoesComponent"], _accessories_accessories_component__WEBPACK_IMPORTED_MODULE_3__["AccessoriesComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2RlcGFydG1lbnRzL2RlcGFydG1lbnRzLmNvbXBvbmVudC5jc3MifQ== */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "button", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function DepartmentsComponent_Template_button_click_5_listener() { return ctx.getInStock(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Get Items");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, directives: [_cloths_cloths_component__WEBPACK_IMPORTED_MODULE_2__["ClothsComponent"], _shoes_shoes_component__WEBPACK_IMPORTED_MODULE_3__["ShoesComponent"], _accessories_accessories_component__WEBPACK_IMPORTED_MODULE_4__["AccessoriesComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2RlcGFydG1lbnRzL2RlcGFydG1lbnRzLmNvbXBvbmVudC5jc3MifQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](DepartmentsComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
-                selector: 'app-departments',
-                templateUrl: './departments.component.html',
-                styleUrls: ['./departments.component.css']
+                selector: "app-departments",
+                templateUrl: "./departments.component.html",
+                styleUrls: ["./departments.component.css"],
             }]
-    }], function () { return []; }, null); })();
+    }], function () { return [{ type: _inventory_service__WEBPACK_IMPORTED_MODULE_1__["InventoryService"] }]; }, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/departments/inventory.service.ts":
+/*!**************************************************!*\
+  !*** ./src/app/departments/inventory.service.ts ***!
+  \**************************************************/
+/*! exports provided: InventoryService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "InventoryService", function() { return InventoryService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
+
+
+
+class InventoryService {
+    constructor(http) {
+        this.http = http;
+    }
+    getItems() {
+        return this.http.get("/api/items/items", { responseType: "json" });
+    }
+}
+InventoryService.ɵfac = function InventoryService_Factory(t) { return new (t || InventoryService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"])); };
+InventoryService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({ token: InventoryService, factory: InventoryService.ɵfac, providedIn: "root" });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](InventoryService, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
+        args: [{
+                providedIn: "root",
+            }]
+    }], function () { return [{ type: _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"] }]; }, null); })();
 
 
 /***/ }),
